@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSEH Academy Portfolio Website</title>
+        <link rel="icon" type="image/x-icon" href="images/cseh_logo.ico">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/43f1456d3e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id ="header">
+    <div class="container">
+        <nav>
+            <img src="images/cseh-nav.jpg" class="logo">
+            <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> JS Developer - Cyber Security Instructor <p>
+            <h1> Hi, I'm <span>Bora</span><br>From Turkey</h1>        
+        </div>
+    </div>
+</div>
+<!---------------about---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/green.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                In id massa eget lorem volutpat condimentum. Mauris augue eros, 
+                ullamcorper ac mi ut, facilisis volutpat enim. Nam nec tincidunt risus. 
+                Donec et gravida lectus. Aenean vel tempus est. Vestibulum nec euismod nisi, 
+                quis mollis nunc. Nam eleifend mauris at condimentum neque porta.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Cyber Security</span><br>Provides training on cyber security</li>
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>Arduino Development</span><br>Building Arduino Projects</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Web Security and Bug Bounty Instructor with Udemy</li>
+                        <li><span>2021 - Current</span><br>Cyber Security Instructor with Udemy</li>
+                        <li><span>2021 - Current</span><br>Founder CSEH Academy</li>
+                        <li><span>2020-2022</span><br>Cyber Security Instructor</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2020 - 2024</span><br>Bachelor's Degree Management Information Systems</li>
+                        <li><span>2021</span><br>Introduction to Cybersecurity</li>
+                        <li><span>2022</span><br>CyberOps Associate</li>
+                    </ul>
+                </div>
+            </div>        
+        </div>
+    </div>
+</div>
+
+<!---------services-------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-regular fa-eye"></i>
+                <h2>Cyber Security Instructor</h2>
+                <p>Contrary to popular belief, 
+                Lorem Ipsum is not simply random text.
+                 It has roots in a piece of classical
+                  Latin literature from 45 BC, 
+                  making it over 2000 years old.</p>
+                <a href="https://www.udemy.com/user/bora-hidir/">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-square-js"></i>
+                <h2>Junior JS Developer</h2>
+                <p>Contrary to popular belief, 
+                Lorem Ipsum is not simply random text.
+                 It has roots in a piece of classical
+                  Latin literature from 45 BC, 
+                  making it over 2000 years old.</p>
+                <a href="https://github.com/csehacademy">Learn More</a>
+            </div>
+
+            <div>
+                <i class="fa-sharp fa-solid fa-microchip"></i>
+                <h2>Arduino Enthusiast</h2>
+                <p>Contrary to popular belief, 
+                Lorem Ipsum is not simply random text.
+                 It has roots in a piece of classical
+                  Latin literature from 45 BC, 
+                  making it over 2000 years old.</p>
+                <a href="https://github.com/csehacademy/Arduino-Projects">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---portfolio---->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="works-list">
+            
+            <div class="works">
+                <img src="images/uyg-hack.jpg">
+                <div class="layer">
+                    <h3>Applied Ethical Hacker Course</h3>
+                    <p>Start your Cyber ​​Security career with practically the most up-to-date software, step into becoming an <br>Ethical Hacker!</p>
+                    <a href="https://www.udemy.com/course/uygulamali-etik-hacker-olma-kursu/?referralCode=A2C91BDCEC549705CC1E"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="works">
+                <img src="images/web-security.jpg">
+                <div class="layer">
+                    <h3>Web Security and Bug Bounty Course</h3>
+                    <p>Start learning Web Security & Bug Bounty concepts with hands-on examples and cutting-edge technologies</p>
+                    <a href="https://www.udemy.com/course/web-security-ve-bug-bounty-sifirdan-ileri-seviyeye/?referralCode=21E95729DA08FF105E4F"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://www.udemy.com/user/bora-hidir/" class="btn">See More</a>
+    </div>
+</div>
+
+
+<!--contact--->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+            <h1 class="sub-title">Contact Me</h1>
+            <p><i class="fa-solid fa-envelope"></i>contact@example.com</p>
+            <p><i class="fa-sharp fa-solid fa-phone"></i>+901234567890</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/bora-h"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/csehacademy"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/csehacademy/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://discord.gg/qYWqMsyg3R"><i class="fa-brands fa-discord"></i></a>
+            </div>
+            <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            
+        </div>
+        <div class="contact-right">
+                <form > 
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your E-mail" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id ="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>The site is under copyright. Verb He has copyrighted all of his versions. Adjective The copyright <i class="fa-regular fa-copyright"></i> CSEH Academy.</p>
+    </div>
+</div>
+
+<script src="scripts.js"></script>
+    
+</body>
+</html>
