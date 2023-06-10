@@ -19,7 +19,8 @@
    [BugBounty]: <https://www.udemy.com/course/web-security-ve-bug-bounty-sifirdan-ileri-seviyeye/?referralCode=21E95729DA08FF105E4F>
    
 ### Demo : 
-https://github.com/csehacademy/portfolio/assets/71405942/41e13ced-7382-4010-a74f-f56eb846b0a9
+https://github.com/csehacademy/portfolio/assets/71405942/c47e24ad-ed8b-4439-9a05-31d5682f7a1b
+
 
 
 
